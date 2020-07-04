@@ -54,10 +54,13 @@ a.nav-link-menu:hover {
   width: 208px;
   height: 36px;
   letter-spacing: 1.7px;
+  padding: .6rem 1.9rem;
 }
+
 .btn-publicar:hover {
   background-color: #208c9a;
   border: 1px solid #208c9a;
+  text-decoration: none;
 }
 
 .perfil img {
@@ -144,16 +147,59 @@ label.title-description {
   margin: 0;
 }
 
-.btn-continuar {
+.btn-c {
+  display: block;
   background-color: var(--tealish);
   border: 1px solid var(--tealish);
-  color: var(--white);
   display: block;
   width: 200px;
   height: 50px;
 }
 
-.btn-continuar:hover {
+.btn-c:hover {
   background-color: #208c9a;
   border: 1px solid #208c9a;
+  color
+}
+
+a.btn-continuar {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.contenedor-servicios {
+  display: flex;
+}
+
+.box-servicios {
+  background-color: var(--white);
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  width: 214px;
+  height: 173px;
+  position: relative;
+}
+
+i.fas {
+  position: absolute;
+  left: 43%;
+  top: 25%;
+}
+
+a.icon-servicios {
+  color: #575559;
+  text-decoration: none;
+}
+
+.title-servicios {
+  text-align: center;
+  padding-top: 90px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #575559;
 }
