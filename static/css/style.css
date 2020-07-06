@@ -246,39 +246,52 @@ ul li {
   list-style: none;
 }
 
-li {
+ul.menu-estrategia {
+  padding-left: inherit;
+  width: 402px;
+  /* border: 1px solid red; */
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+li.lista-servicios {
   background-color: var(--white);
   position: relative;
   font-family: 'Open Sans', sans-serif;
   width: 400px;
 }
 
-li a {
+li.lista-servicios a {
   color: var(--almost-black);
   display: block;
   padding: 6px 10px;
   height: 40px;
 }
 
-li a:hover {
+li.lista-servicios a:hover {
   background-color: var(--tomato-red);
   color: var(--white);
   text-decoration: none;
+  margin-left: 0px;
 }
 
 
-ul li .submenu {
+ul.menu-estrategia li.lista-servicios .submenu {
   display: none;
 }
 
-ul li:hover > ul{
+ul.menu-estrategia li.lista-servicios:hover > ul{
   display: block;
+  /* margin: 0 10px; */
+  max-width: 100%;
 }
 
 ul.submenu {
   /* border: 1px solid red; */
   position: absolute;
   float: right;
-  left: 90%;
+  left: 100%;
   top: 0;
+  margin-left: 3px;
+  padding-left: 3px;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
