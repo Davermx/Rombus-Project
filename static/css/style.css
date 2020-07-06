@@ -219,6 +219,15 @@ a.link-paginacion {
   color: var(--white);
 }
 
+.box-programacion {
+  background-color: var(--berry);
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  width: 214px;
+  height: 173px;
+  position: relative;
+  color: var(--white);
+}
+
 i.fas {
   position: absolute;
   left: 43%;
@@ -290,6 +299,20 @@ a.icon-estrategia {
   color: var(--white);
 }
 
+.title-programacion {
+  text-align: center;
+  padding-top: 90px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white);
+}
+
 
 
 .area-elegida {
@@ -328,6 +351,13 @@ ul.menu-publicidad {
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
 
+ul.menu-programacion {
+  padding-left: inherit;
+  width: 402px;
+  /* border: 1px solid red; */
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+
 li.lista-servicios {
   background-color: var(--white);
   position: relative;
@@ -343,6 +373,13 @@ li.lista-diseño {
 }
 
 li.lista-publicidad {
+  background-color: var(--white);
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  width: 400px;
+}
+
+li.lista-programacion {
   background-color: var(--white);
   position: relative;
   font-family: 'Open Sans', sans-serif;
@@ -373,6 +410,14 @@ li.lista-publicidad a {
   font-size: 15px;
 }
 
+li.lista-programacion a {
+  color: var(--almost-black);
+  display: block;
+  padding: 6px 10px;
+  height: 40px;
+  font-size: 15px;
+}
+
 li.lista-servicios a:hover {
   background-color: var(--tomato-red);
   color: var(--white);
@@ -389,6 +434,13 @@ li.lista-diseño a:hover {
 
 li.lista-publicidad a:hover {
   background-color: var(--nice-blue);
+  color: var(--white);
+  text-decoration: none;
+  margin-left: 0px;
+}
+
+li.lista-programacion a:hover {
+  background-color: var(--berry);
   color: var(--white);
   text-decoration: none;
   margin-left: 0px;
@@ -412,6 +464,12 @@ ul.menu-publicidad li.lista-publicidad .submenu-publicidad {
   height: 360px;
 }
 
+ul.menu-programacion li.lista-programacion .submenu-programacion {
+  background-color: var(--white);
+  display: none;
+  height: 520px;
+}
+
 ul.menu-estrategia li.lista-servicios:hover > ul{
   display: block;
 }
@@ -421,6 +479,10 @@ ul.menu-diseño li.lista-diseño:hover > ul{
 }
 
 ul.menu-publicidad li.lista-publicidad:hover > ul{
+  display: block;
+}
+
+ul.menu-programacion li.lista-programacion:hover > ul{
   display: block;
 }
 
@@ -446,11 +508,23 @@ ul.submenu-diseño {
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
   height: 100%;
 }
+
 ul.submenu-publicidad {
   position: absolute;
   float: right;
   left: 100%;
   top: -120px;
+  margin-left: 2px;
+  padding-left: 2px;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+ul.submenu-programacion {
+  position: absolute;
+  float: right;
+  left: 100%;
+  top: -40px;
   margin-left: 2px;
   padding-left: 2px;
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
@@ -520,6 +594,20 @@ ul.submenu-publicidad {
 .btn-etiqueta.publicidad {
   background-color: var(--nice-blue);
   border: 1px solid var(--nice-blue);
+  color: var(--white);
+  font-family: 'Open Sans', sans-serif;
+  /* width: 400px; */
+  height: 30px;
+  font-size: .7em;
+  margin-right: 10px;
+  clip-path: polygon(0% 0%, 88% 0%, 100% 50%, 88% 100%, 0% 100%);
+  padding-right: 20px;
+  padding-left: 12px;
+}
+
+.btn-etiqueta.programacion {
+  background-color: var(--berry);
+  border: 1px solid var(--berry);
   color: var(--white);
   font-family: 'Open Sans', sans-serif;
   /* width: 400px; */
