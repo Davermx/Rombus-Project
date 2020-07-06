@@ -201,6 +201,15 @@ a.link-paginacion {
   position: relative;
 }
 
+.box-diseño {
+  background-color: var(--butterscotch);
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  width: 214px;
+  height: 173px;
+  position: relative;
+  color: var(--white);
+}
+
 i.fas {
   position: absolute;
   left: 43%;
@@ -244,6 +253,20 @@ a.icon-estrategia {
   color: var(--white);
 }
 
+.title-diseño {
+  text-align: center;
+  padding-top: 90px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white);
+}
+
 .area-elegida {
   padding: 20px 0;
   font-size: 19px;
@@ -266,7 +289,21 @@ ul.menu-estrategia {
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
 
+ul.menu-diseño {
+  padding-left: inherit;
+  width: 402px;
+  /* border: 1px solid red; */
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+
 li.lista-servicios {
+  background-color: var(--white);
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  width: 400px;
+}
+
+li.lista-diseño {
   background-color: var(--white);
   position: relative;
   font-family: 'Open Sans', sans-serif;
@@ -281,6 +318,14 @@ li.lista-servicios a {
   font-size: 15px;
 }
 
+li.lista-diseño a {
+  color: var(--almost-black);
+  display: block;
+  padding: 6px 10px;
+  height: 40px;
+  font-size: 15px;
+}
+
 li.lista-servicios a:hover {
   background-color: var(--tomato-red);
   color: var(--white);
@@ -288,8 +333,20 @@ li.lista-servicios a:hover {
   margin-left: 0px;
 }
 
+li.lista-diseño a:hover {
+  background-color: var(--butterscotch);
+  color: var(--white);
+  text-decoration: none;
+  margin-left: 0px;
+}
 
 ul.menu-estrategia li.lista-servicios .submenu {
+  background-color: var(--white);
+  display: none;
+  height: 560px;
+}
+
+ul.menu-diseño li.lista-diseño .submenu-diseño {
   background-color: var(--white);
   display: none;
   height: 560px;
@@ -299,7 +356,23 @@ ul.menu-estrategia li.lista-servicios:hover > ul{
   display: block;
 }
 
+ul.menu-diseño li.lista-diseño:hover > ul{
+  display: block;
+}
+
 ul.submenu {
+  /* border: 1px solid red; */
+  position: absolute;
+  float: right;
+  left: 100%;
+  top: 0;
+  margin-left: 2px;
+  padding-left: 2px;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+ul.submenu-diseño {
   /* border: 1px solid red; */
   position: absolute;
   float: right;
@@ -355,8 +428,27 @@ ul.submenu {
   padding-left: 12px;
 }
 
+.btn-etiqueta.diseño {
+  background-color: var(--butterscotch);
+  border: 1px solid var(--butterscotch);
+  color: var(--white);
+  font-family: 'Open Sans', sans-serif;
+  /* width: 400px; */
+  height: 30px;
+  font-size: .7em;
+  /* border-radius: 0 10px 10px 0; */
+  margin-right: 10px;
+  clip-path: polygon(0% 0%, 88% 0%, 100% 50%, 88% 100%, 0% 100%);
+  padding-right: 20px;
+  padding-left: 12px;
+}
+
 .btn-etiqueta:active {
   border:1px solid var(--tomato-red);
+}
+
+.btn-etiqueta .diseño:active {
+  border:1px solid var(--butterscotch);
 }
 
 .icono-cruz1 img {
