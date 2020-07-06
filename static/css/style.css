@@ -210,6 +210,15 @@ a.link-paginacion {
   color: var(--white);
 }
 
+.box-publicidad {
+  background-color: var(--nice-blue);
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  width: 214px;
+  height: 173px;
+  position: relative;
+  color: var(--white);
+}
+
 i.fas {
   position: absolute;
   left: 43%;
@@ -267,6 +276,22 @@ a.icon-estrategia {
   color: var(--white);
 }
 
+.title-publicidad {
+  text-align: center;
+  padding-top: 90px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white);
+}
+
+
+
 .area-elegida {
   padding: 20px 0;
   font-size: 19px;
@@ -296,6 +321,13 @@ ul.menu-diseño {
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
 
+ul.menu-publicidad {
+  padding-left: inherit;
+  width: 402px;
+  /* border: 1px solid red; */
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+
 li.lista-servicios {
   background-color: var(--white);
   position: relative;
@@ -304,6 +336,13 @@ li.lista-servicios {
 }
 
 li.lista-diseño {
+  background-color: var(--white);
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  width: 400px;
+}
+
+li.lista-publicidad {
   background-color: var(--white);
   position: relative;
   font-family: 'Open Sans', sans-serif;
@@ -326,6 +365,14 @@ li.lista-diseño a {
   font-size: 15px;
 }
 
+li.lista-publicidad a {
+  color: var(--almost-black);
+  display: block;
+  padding: 6px 10px;
+  height: 40px;
+  font-size: 15px;
+}
+
 li.lista-servicios a:hover {
   background-color: var(--tomato-red);
   color: var(--white);
@@ -340,6 +387,13 @@ li.lista-diseño a:hover {
   margin-left: 0px;
 }
 
+li.lista-publicidad a:hover {
+  background-color: var(--nice-blue);
+  color: var(--white);
+  text-decoration: none;
+  margin-left: 0px;
+}
+
 ul.menu-estrategia li.lista-servicios .submenu {
   background-color: var(--white);
   display: none;
@@ -349,7 +403,13 @@ ul.menu-estrategia li.lista-servicios .submenu {
 ul.menu-diseño li.lista-diseño .submenu-diseño {
   background-color: var(--white);
   display: none;
-  height: 560px;
+  height: 600px;
+}
+
+ul.menu-publicidad li.lista-publicidad .submenu-publicidad {
+  background-color: var(--white);
+  display: none;
+  height: 360px;
 }
 
 ul.menu-estrategia li.lista-servicios:hover > ul{
@@ -357,6 +417,10 @@ ul.menu-estrategia li.lista-servicios:hover > ul{
 }
 
 ul.menu-diseño li.lista-diseño:hover > ul{
+  display: block;
+}
+
+ul.menu-publicidad li.lista-publicidad:hover > ul{
   display: block;
 }
 
@@ -373,16 +437,26 @@ ul.submenu {
 }
 
 ul.submenu-diseño {
-  /* border: 1px solid red; */
   position: absolute;
   float: right;
   left: 100%;
-  top: 0;
+  top: -80px;
   margin-left: 2px;
   padding-left: 2px;
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
   height: 100%;
 }
+ul.submenu-publicidad {
+  position: absolute;
+  float: right;
+  left: 100%;
+  top: -120px;
+  margin-left: 2px;
+  padding-left: 2px;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
 .parrafo-si-deseas {
   color: var(--almost-black);
   font-family: 'Open Sans', sans-serif;
@@ -443,11 +517,29 @@ ul.submenu-diseño {
   padding-left: 12px;
 }
 
+.btn-etiqueta.publicidad {
+  background-color: var(--nice-blue);
+  border: 1px solid var(--nice-blue);
+  color: var(--white);
+  font-family: 'Open Sans', sans-serif;
+  /* width: 400px; */
+  height: 30px;
+  font-size: .7em;
+  margin-right: 10px;
+  clip-path: polygon(0% 0%, 88% 0%, 100% 50%, 88% 100%, 0% 100%);
+  padding-right: 20px;
+  padding-left: 12px;
+}
+
 .btn-etiqueta:active {
   border:1px solid var(--tomato-red);
 }
 
 .btn-etiqueta .diseño:active {
+  border:1px solid var(--butterscotch);
+}
+
+.btn-etiqueta .publicidad:active {
   border:1px solid var(--butterscotch);
 }
 
