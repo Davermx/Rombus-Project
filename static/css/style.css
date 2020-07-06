@@ -179,6 +179,14 @@ a.btn-continuar {
   position: relative;
 }
 
+.box-estrategia {
+  background-color: var(--tomato-red);
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  width: 214px;
+  height: 173px;
+  position: relative;
+}
+
 i.fas {
   position: absolute;
   left: 43%;
@@ -187,6 +195,10 @@ i.fas {
 
 a.icon-servicios {
   color: #575559;
+  text-decoration: none;
+}
+a.icon-estrategia {
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -202,4 +214,71 @@ a.icon-servicios {
   letter-spacing: normal;
   text-align: center;
   color: #575559;
+}
+
+.title-estrategia {
+  text-align: center;
+  padding-top: 90px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white);
+}
+
+.area-elegida {
+  padding: 20px 0;
+  /* font-family: OpenSans; */
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--almost-black);
+}
+
+
+ul li {
+  list-style: none;
+}
+
+li {
+  background-color: var(--white);
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  width: 400px;
+}
+
+li a {
+  color: var(--almost-black);
+  display: block;
+  padding: 6px 10px;
+  height: 40px;
+}
+
+li a:hover {
+  background-color: var(--tomato-red);
+  color: var(--white);
+  text-decoration: none;
+}
+
+
+ul li .submenu {
+  display: none;
+}
+
+ul li:hover > ul{
+  display: block;
+}
+
+ul.submenu {
+  /* border: 1px solid red; */
+  position: absolute;
+  float: right;
+  left: 90%;
+  top: 0;
 }
