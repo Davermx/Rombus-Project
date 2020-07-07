@@ -236,6 +236,7 @@ a.link-paginacion {
   width: 214px;
   height: 173px;
   position: relative;
+  padding: 0 10px;
 }
 
 .box-estrategia {
@@ -273,6 +274,15 @@ a.link-paginacion {
   color: var(--white);
 }
 
+.box-profesional {
+  background-color: var(--tealish);
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  width: 214px;
+  height: 173px;
+  position: relative;
+  color: var(--white) !important;
+}
+
 i.fas {
   position: absolute;
   left: 43%;
@@ -283,6 +293,10 @@ a.icon-servicios {
   color: #575559;
   text-decoration: none;
 }
+a.icon-modalidad {
+  color: #000;
+}
+
 a.icon-estrategia {
   color: var(--white);
   text-decoration: none;
@@ -301,6 +315,13 @@ a.icon-estrategia {
   text-align: center;
   color: #575559;
 }
+
+.title-modalidad {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  color: var(--almost-black);
+}
+
 
 .title-estrategia {
   text-align: center;
@@ -358,7 +379,21 @@ a.icon-estrategia {
   color: var(--white);
 }
 
-
+.title-profesional {
+  text-align: center;
+  padding-top: 90px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white);
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .area-elegida {
   padding: 20px 0;
